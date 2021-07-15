@@ -30,14 +30,14 @@ pip install tqdm
 (Default port is 5001)
 
 ```
-python server.py "serverport"
+python server.py 'serverport'
 ```
 
 ### Client
 (Default port is 5001)
 
 ```
-python client.py "serverip" "serverport"
+python client.py 'serverip' 'serverport'
 ```
 
 ## To take in consideration
