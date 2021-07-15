@@ -9,8 +9,7 @@
 
 ## How it Works
 The client files are stored in a folder on the server
-The client can download, upload and list files from it's own server folder
-##### Note: On Server-Side port forwarding is necessary when you want clients to connect from outside the server LAN  
+The client can download, upload and list files from it's own server folder 
 
 ## Install Dependencies
 Note: Code written in python 3.9
@@ -41,3 +40,6 @@ python server.py "serverport"
 python client.py "serverip" "serverport"
 ```
 
+## To take in consideration
+* Server-Side port forwarding is necessary when you want clients to connect from outside the server LAN  
+* Client-Side, depending on your firewall settings, you might need to create a rule that allows incoming and outgoing traffic through the port being used (Default: 5001)
