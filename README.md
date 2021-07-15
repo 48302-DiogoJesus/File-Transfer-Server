@@ -15,7 +15,9 @@ The client can download, upload and list files from it's own server folder
 Note: Code written in python 3.9
 
 ### Client Dependencies
-'''pip install requests'''
+'''
+pip install requests
+'''
 
 ### Server Dependencies
 '<pip install tqdm>'
