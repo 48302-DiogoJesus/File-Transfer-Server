@@ -1,5 +1,5 @@
 # File-Transfer-Server
-##### A simple file transfer server and client written in python.
+##### A simple file transfer server and client written in python using TCP sockets.
 
 ## Features
 * Simple Usage  
